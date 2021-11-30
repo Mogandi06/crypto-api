@@ -1,0 +1,43 @@
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #212529;
+    border-radius: 5rem;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle, rgba(55,57,67,1) 0%, rgba(39,42,52,1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #fff;
+
+}
+
+nav{
+  padding-top: 100px;
+}
